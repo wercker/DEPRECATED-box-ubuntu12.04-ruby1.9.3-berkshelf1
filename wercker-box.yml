@@ -1,6 +1,11 @@
 name: ubuntu12.04-ruby1.9.3-berkshelf1
 version: 0.0.2
 description: Box for installing chef recipes using berkshelf
+type : main
+os : ubuntu@12.04
+packages :
+  - ruby@1.9.3
+  - berkshelf@1.1.6
 script : |
   sudo apt-get update
   sudo apt-get install ruby1.9.3 curl git build-essential
