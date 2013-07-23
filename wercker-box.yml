@@ -1,5 +1,5 @@
 name: ubuntu12.04-ruby1.9.3-berkshelf1
-version: 0.0.3
+version: 0.0.4
 description: Box for installing chef recipes using berkshelf
 type : main
 platform : ubuntu@12.04
